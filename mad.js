@@ -56,6 +56,7 @@ else if (message.content.match(/あつい/)) {
     return;}
 
 })
+//fortune telling
 
 client.on('message', message => {
 if(message.content === '!占い'){
@@ -148,6 +149,7 @@ return;
  }
   return;
    }
+
 
 if (!message.attachments.forEach(attachment =>
  {
